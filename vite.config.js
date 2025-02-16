@@ -22,6 +22,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         index: path.resolve(__dirname, './index.html'),
+        v0: path.resolve(__dirname, './v0.html'),
         v1: path.resolve(__dirname, './v1.html'),
         v2: path.resolve(__dirname, './v2.html'),
         v3: path.resolve(__dirname, './v3.html')
