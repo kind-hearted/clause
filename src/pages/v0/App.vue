@@ -8,11 +8,11 @@ const source1 = ref('')
 const source2 = ref(null)
 
 const open1 = (pdf) => {
-  source.value = pdf;
+  source1.value = pdf;
   show1.value = true
 }
 const close1 = () => {
-  source.value = '';
+  source1.value = '';
   show1.value = false
 }
 
