@@ -20,6 +20,7 @@ const open2 = (pdf) => {
   source2.value = {
     // cMapUrl: 'https://unpkg.com/browse/pdfjs-dist@4.10.38/cmaps/',
     cMapUrl: '/cmaps/',
+    cMapPacked: true,
     url: pdf,
   }
   show2.value = true
